@@ -1,0 +1,55 @@
+body{
+
+
+}
+.logo{
+width:90%;
+}
+.social{
+width:7%;
+float:right;
+margin-top:2%;
+padding-right:2%;	
+	
+}
+
+.foto{
+width:45%;
+}
+.perfil{
+width:35%;
+float:right;
+}
+textarea{
+width:80%;
+float:left;	
+}
+.lateral{
+width:70%;
+margin-bottom:2%;	
+}
+
+.footer{
+	margin-top:2%;
+width:100%;	
+background:#1a78f8;
+color:white;
+text-align:center;
+height:150px;	
+}
+
+.pie{
+margin-top:5%;	
+}
+  /*version movil*/
+
+ @media (max-width:599px){
+ .panel-lateral{
+	 display:none;
+	 
+ }
+ 
+ .panel-central{
+	width:100%; 
+ } 
+ }
